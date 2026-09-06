@@ -5,4 +5,4 @@ are more than 500 metres from a paved road, and where are the major accessibilit
 
 Built over twelve months with GeoDev Lab Africa, Cohort One.
 
-See `Project-brief.md` for the full brief.
+See `Project-brief (1).md` for the full brief.
