@@ -18,7 +18,7 @@ About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m 
 
 **Read this with its caveat:** only about 7.6% of road features (1,743 of 23,019) carry a `paved` value. Roads with no surface information are not counted as paved, so the figures may overstate the gaps. Distances are straight-line, not travel distance.
 
-<img width="3507" height="2480" alt="Alimosho settlements extents 500m cut on paved roads" src="https://github.com/user-attachments/assets/95cf4a3b-bc24-4978-b3ef-7864f7f02358" />
+<img width="3507" height="2480" alt="Settlements more than 500 m from a paved road, Alimosho LGA, Lagos State" src="https://github.com/user-attachments/assets/743b56cd-c49d-405e-8eea-6d033d8546b0" />
 
 
 ## Where to find each week's work
