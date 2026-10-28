@@ -17,7 +17,7 @@ Which residential areas in Alimosho Local Government Area, Lagos State, are loca
 | Dataset | Source | Link |
 |----------|----------|----------|
 | Alimosho administrative boundary | GRID3 Nigeria | https://data.grid3.org |
-| Road network | OpenStreetMap | https://www.openstreetmap.org |
-| Road surface information | OpenStreetMap (`surface=*`) | https://www.openstreetmap.org |
+| Road network GRID3 Nigeria | https://data.grid3.org |
+| Road surface information GRID3 Nigeria | https://data.grid3.org |
 | Settlement extents | GRID3 Nigeria | https://data.grid3.org |
 | Building footprints | OpenStreetMap | https://www.openstreetmap.org |
