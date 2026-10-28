@@ -18,8 +18,8 @@ About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m 
 
 **Read this with its caveat:** only about 7.6% of road features (1,743 of 23,019) carry a `paved` value. Roads with no surface information are not counted as paved, so the figures may overstate the gaps. Distances are straight-line, not travel distance.
 
-![Settlements more than 500 m from a paved road, Alimosho LGA](maps/alimosho_settlements_beyond_500m.png)
-<img width="3507" height="2480" alt="Alimosho settlements extents 500m cut on paved roads" src="https://github.com/user-attachments/assets/8bc829a8-7c60-4b0b-9848-8b316fb1cbc1" />
+<img width="3507" height="2480" alt="Alimosho settlements extents 500m cut on paved roads" src="https://github.com/user-attachments/assets/95cf4a3b-bc24-4978-b3ef-7864f7f02358" />
+
 
 ## Where to find each week's work
 
@@ -27,7 +27,7 @@ About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m 
 |---|---|---|
 | 1 | Project brief, with a source link for every dataset | [project-brief.md](project-brief.md) |
 | 2 | Data notes: what I downloaded | [data-notes.md](data-notes.md) (Part 1) |
-| 3 | Prepared data and the five quality checks | [data-notes.md](data-notes.md) (Part 2) and [data/](data/README.md) |
+| 3 | Prepared data and the five quality checks | [week_3_data-notes.md](week_3_data-notes.md) (Part 2) and [data/](data/README.md) |
 | 4 | Analysis, map and summary | [month-1-summary.md](month-1-summary.md) and [the map](maps/alimosho_settlements_beyond_500m.png) |
 
 ## Method in one paragraph
