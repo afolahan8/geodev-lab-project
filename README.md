@@ -26,7 +26,7 @@ About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m 
 | Week | What | Where |
 |---|---|---|
 | 1 | Project brief, with a source link for every dataset | [project-brief.md](project-brief.md) |
-| 2 | Data notes: what I downloaded | [data-notes.md](week_2_data-notes.md) (Part 1) |
+| 2 | Data notes: what I downloaded | [week_2_data-notes.md](week_2_data-notes.md) (Part 1) |
 | 3 | Prepared data and the five quality checks | [week_3_data-notes.md](week_3_data-notes.md) (Part 2) and [data/](data/README.md) |
 | 4 | Analysis, map and summary | [month-1-summary.md](month-1-summary.md) and [the map](maps/alimosho_settlements_beyond_500m.png) |
 
