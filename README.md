@@ -13,6 +13,8 @@ Built over twelve months with GeoDev Lab Africa, Cohort One.
 
 See `Project-brief.md` for the full brief.
 
+ ## Month 1
+ 
 ## Result so far
 About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m from a road recorded as paved. [Add one sentence on where the gaps are, for example "They are concentrated along the southern edge and the western strip".] [Add the settled-area figure: X km² of Y km² of settlements, Z%.]
 
@@ -38,3 +40,7 @@ Paved roads were buffered by 500 m (dissolved), and the buffer was subtracted fr
 - Buildings: HOT OSM Nigeria export, © OpenStreetMap contributors.
 
 Full source links, versions and dates are in [project-brief.md](project-brief.md) and [data-notes.md](data-notes.md).
+
+   ## Month 2: development environment and early Python
+
+   Week 5: set up Python, VS Code and the terminal. hello.py runs.
