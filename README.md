@@ -49,4 +49,4 @@ Full source links, versions and dates are in [project-brief.md](project-brief.md
 
    Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
-   Week 8: inspect_data.py summarises area_km2 and perimeter_m in alimosho_settlements.csv.
+   Week 8: inspect_data.py summarises speed_estimate and length_m in my Alimosho paved roads data.
