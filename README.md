@@ -28,8 +28,8 @@ About 38% of buildings in Alimosho LGA (126,816 of 331,047) are more than 500 m 
 | Week | What | Where |
 |---|---|---|
 | 1 | Project brief, with a source link for every dataset | [project-brief.md](project-brief.md) |
-| 2 | Data notes: what I downloaded | [week_2_data-notes.md](week_2_data-notes.md) (Part 1) |
-| 3 | Prepared data and the five quality checks | [week_3_data-notes.md](week_3_data-notes.md) (Part 2) and [data/](data/README.md) |
+| 2 | Data notes: what I downloaded | [week_2_data-notes.md](docsweek_2_data_notes.md) (Part 1) |
+| 3 | Prepared data and the five quality checks | [week_3_data-notes.md](docs/week_3_data-notes.md) (Part 2) and [data/](data/README.md) |
 | 4 | Analysis, map and summary | [month-1-summary.md](month-1-summary.md) and [the map](maps/alimosho_settlements_beyond_500m.png) |
 
 ## Method in one paragraph
@@ -39,28 +39,20 @@ Paved roads were buffered by 500 m (dissolved), and the buffer was subtracted fr
 - Boundary, roads and settlement extents: GRID3 Nigeria.
 - Buildings: HOT OSM Nigeria export, © OpenStreetMap contributors.
 
-Full source links, versions and dates are in [project-brief.md](project-brief.md) and [data-notes.md](data-notes.md).
+Full source links, versions and dates are in [project-brief.md](project-brief.md) and [data-notes.md](week_2_data_notes.md).
 
    ## Month 2: development environment and early Python
 
-   Week 5: set up Python, VS Code and the terminal. hello.py runs. [hello.py](scripts/hello.py) runs. ([screenshot](screenshots/week5.png))
+   **Week 5:** set up Python, VS Code and the terminal. hello.py runs. [hello.py](scripts/hello.py) runs. ([screenshot](screenshots/week_5.png))
    
-   Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
+   **Week 6:** set up the project with uv and added pandas. [check.py](check.py) prints the pandas version. ([pyproject.toml](pyproject.toml), [uv.lock](uv.lock), [screenshot](screenshots/week_6.png))
 
-   Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
+   **Week 7:**  Python basics on practice data. [analyse.py](analyse.py) reads [wards.csv](states.csv). ([screenshot](screenshots/week_7.png)), converts each area and classifies each ward, then displays the results.
 
-   Week 8: inspect_data.py summarises speed_estimate and length_m in my Alimosho paved roads data.
+   **Week 8:**  [inspect_data.py](scripts/inspect_data.py) summarises speed_estimate and length in my Alimosho paved roads data, [paved_roads.csv](docs/paved_roads.csv). ([screenshot](screenshots/week_8.png) and [screenshot](screenshots/week8.png))
 
-## Month 2: development environment and early Python
-
-Month 1 produced the analysis. Month 2 turns that data into code: the paved roads layer from QGIS is exported to CSV and summarised in Python in Weeks 8 and 9.
-
-- **Week 5:** set up Python, VS Code and the terminal. 
-- **Week 6:** set up the project with uv and added pandas. [check.py](check.py) prints the pandas version. ([pyproject.toml](pyproject.toml), [uv.lock](uv.lock), [screenshot](screenshots/week6.png))
-- **Week 7:** Python basics on practice data. [analyse.py](analyse.py) reads [wards.csv](wards.csv). ([screenshot](screenshots/week7.png))
-- **Week 8:** [inspect_data.py](inspect_data.py) summarises speed_estimate and length in my Alimosho paved roads data, [paved_roads.csv](paved_roads.csv). ([screenshot](screenshots/week8.png))
-- **Week 9:** [summary.py](summary.py) is the capstone: it runs read_rows, clean_values, summarise_values and summarise_all on my Month 1 paved roads data. ([screenshot](screenshots/week9.png))
+   **Week 9:** [summary.py](week_9_summary.py) is the capstone: it runs read_rows, clean_values, summarise_values and summarise_all on my Month 1 paved roads data. ([screenshot](screenshots/week_9.png))
 
 ## Month 2 reflection
 
-[Your three or four sentences, in your own words.]
+The idea that finally clicked this month was that a function has to use the inputs it is given: my Week 8 function ignored its filename and column arguments and summarised the same column twice, and fixing that showed me why Week 9's small functions with one job each are easier to trust. What is still fuzzy is how pyproject.toml, uv.lock and the virtual environment fit together, because I can run uv add and uv run but I struggled to work out what went wrong when the project would not build. My capstone shows that all 1,743 of my paved roads have both a length (averaging about 123 m, up to about 1,094 m) and a speed estimate (from 5 to 80 km/h, averaging about 49), so unlike the surface column, which was empty for most roads, these fields are complete for the paved roads I analysed. That makes them a good base for upgrading my Month 1 straight-line distance question to a travel-time one.
