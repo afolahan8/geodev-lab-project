@@ -43,7 +43,7 @@ Full source links, versions and dates are in [project-brief.md](project-brief.md
 
    ## Month 2: development environment and early Python
 
-   Week 5: set up Python, VS Code and the terminal. hello.py runs. [hello.py](hello.py) runs. ([screenshot](screenshots/week5.png))
+   Week 5: set up Python, VS Code and the terminal. hello.py runs. [hello.py](scripts/hello.py) runs. ([screenshot](screenshots/week5.png))
    
    Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
 
