@@ -43,10 +43,24 @@ Full source links, versions and dates are in [project-brief.md](project-brief.md
 
    ## Month 2: development environment and early Python
 
-   Week 5: set up Python, VS Code and the terminal. hello.py runs.
+   Week 5: set up Python, VS Code and the terminal. hello.py runs. [hello.py](hello.py) runs. ([screenshot](screenshots/week5.png))
    
    Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
 
    Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
    Week 8: inspect_data.py summarises speed_estimate and length_m in my Alimosho paved roads data.
+
+## Month 2: development environment and early Python
+
+Month 1 produced the analysis. Month 2 turns that data into code: the paved roads layer from QGIS is exported to CSV and summarised in Python in Weeks 8 and 9.
+
+- **Week 5:** set up Python, VS Code and the terminal. 
+- **Week 6:** set up the project with uv and added pandas. [check.py](check.py) prints the pandas version. ([pyproject.toml](pyproject.toml), [uv.lock](uv.lock), [screenshot](screenshots/week6.png))
+- **Week 7:** Python basics on practice data. [analyse.py](analyse.py) reads [wards.csv](wards.csv). ([screenshot](screenshots/week7.png))
+- **Week 8:** [inspect_data.py](inspect_data.py) summarises speed_estimate and length in my Alimosho paved roads data, [paved_roads.csv](paved_roads.csv). ([screenshot](screenshots/week8.png))
+- **Week 9:** [summary.py](summary.py) is the capstone: it runs read_rows, clean_values, summarise_values and summarise_all on my Month 1 paved roads data. ([screenshot](screenshots/week9.png))
+
+## Month 2 reflection
+
+[Your three or four sentences, in your own words.]
